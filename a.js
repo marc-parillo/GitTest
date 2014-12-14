@@ -9,4 +9,4 @@ function add(x,y) {
   return x+y;
 }
 
-console.info(add(a,b));
+console.info(add(a, b));
