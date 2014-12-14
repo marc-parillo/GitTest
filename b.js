@@ -18,6 +18,7 @@ APP.module = (function () {
 
   var getConfig = function () {
 
+    // returning copy of config
     return {a: config.a, b: config.b};
 
   };
@@ -35,7 +36,8 @@ APP.module = (function () {
   return {
 
     init: init,
-    subtract: subtract
+    subtract: subtract,
+    getConfig: getConfig
 
   };
 
