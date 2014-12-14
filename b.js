@@ -9,6 +9,12 @@ APP.module = (function () {
 
   };
 
+  var getConfig = function() {
+
+    return {a:config.a,b:config.b};
+
+  };
+
   var subtract = function (x, y) {
     
     if (isNaN(x) || isNaN(y)) {
