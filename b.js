@@ -10,6 +10,10 @@ APP.module = (function () {
   };
 
   var subtract = function (x, y) {
+    
+    if (isNaN(x) || isNaN(y)) {
+      return 0;
+    }
 
     return x - y;
 
