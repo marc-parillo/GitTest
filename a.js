@@ -1,10 +1,11 @@
-/* Changed By John */
+/* Changed By Mary */
 var a = 1;
 var b = 2;
 
 function add(x,y) {
   if (typeof x !== 'number' || typeof y !== 'number') {
-    return null;
+    // should return a number
+    return 0;
   }
   return x+y;
 }
