@@ -9,14 +9,15 @@ APP.module = (function () {
 
   };
 
-  var getConfig = function() {
+  var getConfig = function () {
 
-    return {a:config.a,b:config.b};
+    // returning copy of config
+    return {a: config.a, b: config.b};
 
   };
 
   var subtract = function (x, y) {
-    
+
     if (isNaN(x) || isNaN(y)) {
       return 0;
     }
@@ -27,7 +28,8 @@ APP.module = (function () {
 
   return {
 
-    subtract: subtract
+    subtract: subtract,
+    getConfig: getConfig
 
   };
 
