@@ -19,7 +19,7 @@ APP.module = (function () {
   var getConfig = function () {
 
     // returning copy of config
-    return {a: config.a, b: config.b};
+    return {a: config.a || 0, b: config.b || 0};
 
   };
 
