@@ -9,13 +9,6 @@ APP.module = (function () {
 
   };
 
-  var init = function (params) {
-
-    config.a = params.a || 0;
-    config.b = params.b || 0;
-
-  };
-
   var getConfig = function () {
 
     // returning copy of config
@@ -35,7 +28,6 @@ APP.module = (function () {
 
   return {
 
-    init: init,
     subtract: subtract,
     getConfig: getConfig
 
