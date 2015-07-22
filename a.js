@@ -1,6 +1,6 @@
 /* Changed By Mary -- again */
 var a = 1;
-var b = 2;
+var b = 4;
 
 function add(x,y) {
   if (typeof x !== 'number' || typeof y !== 'number') {
